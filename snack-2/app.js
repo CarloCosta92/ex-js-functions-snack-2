@@ -4,5 +4,8 @@
 
 const quadrato = (num) => num * num;
 
+// alternativa con elevatura al quadrato
+// const quadrato = (num) => num ** 2;
+
 console.log(quadrato(5));
 

@@ -4,7 +4,7 @@
 
 function contatoreAutomatico(intervallo) {
     let contatore = 0;
-    return function avviaFunzione() {
+    return () => {
         setInterval(() => {
             contatore++;
             console.log(contatore);
@@ -16,6 +16,8 @@ function contatoreAutomatico(intervallo) {
 // commentato altrimenti va a infinito
 
 
-// const start = contatoreAutomatico(1000);
-// start();
+// const startOgniSecondo = contatoreAutomatico(1000);
+// const startOgniDueSecondi = contatoreAutomatico(2000);
+// startOgniSecondo();
+// startOgniDueSecondi()
 
